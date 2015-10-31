@@ -1,0 +1,35 @@
+{
+  "name": "mdcss-theme",
+  "version": "1.0.0",
+  "description": "mdcss theme generator",
+  "keywords": [
+    "mdcss",
+    "mdcss-theme",
+    "theme"
+  ],
+  "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathantneal/mdcss-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathantneal/mdcss-theme/issues"
+  },
+  "homepage": "https://github.com/jonathantneal/mdcss-theme#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "fs-extra": "^0.26.1",
+    "fs-promise": "^0.3.1",
+    "git-user-info": "^1.0.0",
+    "inquirer": "^0.11.0",
+    "mdcss": "^1.1.1"
+  },
+  "scripts": {
+    "install": "node lib/install.js"
+  },
+  "engines": {
+    "iojs": ">=2.0.0",
+    "node": ">=0.12.0"
+  }
+}
